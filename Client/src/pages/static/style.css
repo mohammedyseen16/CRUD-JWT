@@ -1,0 +1,108 @@
+body {
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.5;
+    margin: 0 auto;
+    background-image: url('.images/image2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.bg {
+    background-image: url("./images/image2.png");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+input{
+    display: flex;
+    padding:10px;
+    border:0;
+    size: 33px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.button {
+    width: 110px;
+    height: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(235, 225, 225, 0.1);
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    outline: none;
+    }
+  
+.button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform:  scale(1.1);
+}
+
+img{
+    max-width: 100%;
+    height: auto;   
+}
+ 
+.button1 {
+    width: 110px;
+    height: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: white;
+    background-color: #2EE59D;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(235, 225, 225, 0.1);
+    transition:  all .5s ease-in-out;
+    cursor: pointer;
+    outline: none;
+}
+  
+.button1:hover {
+    background-color: blue;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.button2 {
+    width: 110px;
+    height: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: white;
+    background-color: #2EE59D;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(235, 225, 225, 0.1);
+    transition:  all .5s ease-in-out;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    top: 170px;
+    right: 22px;
+    left: 700px;
+}
+  
+.button2:hover {
+    background-color: blue;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: scale(1.1);
+}
+  
