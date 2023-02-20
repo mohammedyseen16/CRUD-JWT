@@ -23,7 +23,7 @@ tez stop monitoring
 
 #### To Run and test
 
-* Download mongodb compass here [https://downloads.mongodb.com/compass/mongodb-compass_1.35.0_amd64.deb] "Download"
+* Download mongodb compass here [Download](https://downloads.mongodb.com/compass/mongodb-compass_1.35.0_amd64.deb).
 * Make sure backend is up and running if not please follow below steps
     * Open new terminal of split two terminals and change directory to.
     ``` 
